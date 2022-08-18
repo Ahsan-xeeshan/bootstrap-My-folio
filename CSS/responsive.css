@@ -1,0 +1,86 @@
+ @media (min-width:320px) and (max-width:575px) {
+    nav #myNavBar ul li a {
+        padding: 15px 15px;
+    }
+    nav #myNavBar ul{
+        text-align: center;
+    }
+
+    #banner{
+        height: 202px;
+    }
+    #banner .row{
+        height: 202px;
+    }
+   
+    #banner .banner-text h2 {
+        font-size: 12px;
+    }
+    
+    #banner .banner-text h1 {
+        font-size: 22px;
+        letter-spacing: 14px;
+    }
+    
+    #banner .banner-text p {
+        font-size: 10px;
+    }
+    
+    #banner .banner-text img {
+        margin: 15px auto;
+    }
+    .button{
+        width: 60px;
+        height: 15px;
+        line-height: 15px;
+        font-size: 8px;
+        color: #0b1016;
+    }
+ }
+
+ 
+ @media (min-width: 576px) and (max-width: 991px){
+    
+    #banner{
+        height: 328px;
+    }
+    #banner .row{
+        height: 328px;
+    }
+    #banner .banner-text h2 {
+        font-size: 16px;
+    }
+    
+    #banner .banner-text h1 {
+        font-size: 26px;
+        letter-spacing: 14px;
+    }
+    
+    #banner .banner-text p {
+        font-size: 12px;
+    }
+    
+    #banner .banner-text img {
+        margin: 20px auto;
+    }
+    .button{
+        width: 80px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+        color: #0b1016;
+    }
+ }
+
+ @media (min-width: 992px){
+    #banner{
+        height: 564px;
+    }
+    #banner .row{
+        height: 564px;
+    }
+ }
+
+ 
+ 
+

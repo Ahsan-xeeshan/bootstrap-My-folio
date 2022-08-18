@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+span,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: #02918c;
+    --button-color: #cfc91d;
+    --banner-height: 730px;
+}
+
+.button {
+    display: block;
+    width: 197px;
+    height: 47px;
+    background-color: var(--button-color);
+    margin: auto;
+    line-height: 47px;
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+/* nav style here */
+
+nav {
+    background-color: var(--main-color);
+}
+
+nav #myNavBar ul li a {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 18px 25px;
+}
+
+nav button.myTogglerBtn {
+    color: white;
+}
+
+nav button.myTogglerBtn:focus {
+    box-shadow: none;
+}
+
+/* banner style here */
+
+#banner {
+    background-image: url(../image/banner.jpg);
+    height: var(--banner-height);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+#banner::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+#banner .row {
+    height: var(--banner-height);
+}
+
+#banner .banner-text {
+    width: 100%;
+
+}
+
+#banner .banner-text h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#banner .banner-text h1 {
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+#banner .banner-text p {
+    font-size: 18px;
+}
+
+#banner .banner-text img {
+    margin: 50px auto;
+}
